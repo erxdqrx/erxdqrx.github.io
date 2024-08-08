@@ -1,0 +1,191 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #6f4e37;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #6f4e37;
+        }
+        .hero {
+            background-image: url(coffee_bckgrnd.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero1 {
+            background-image: url(menu-bckgrnd.webp);
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero2 {
+            background-image: url(about-bckgrnd.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            color: #6f4e37;
+        }
+
+        /* Menu Page*/
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        .menu-item h3 {
+            margin: 0;
+        }
+        .menu-item p {
+            margin: 0;
+            color: #666;
+        }
+
+        /* About Us Page*/
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .team-member img {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .team-member div {
+            flex: 1;
+        }
+        .team-member h3 {
+            margin: 0 0 10px;
+        }
+
+        /* Contact Page */
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 98%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            background-color: #6f4e37;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-info {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        
+        .footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                margin: 0 auto;
+               }
+            
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            
+            .team-member {
+                flex-direction: column;
+                text-align: center;
+            }
+        
+            .team-member img {
+                margin: 0 auto 10px;
+            }
+        
+            .contact-form label,
+            .contact-form input,
+            .contact-form textarea,
+            .contact-form button {
+                font-size: 1em;
+            }
+        
+            .contact-info p {
+                font-size: 0.9em;
+            }
+        
+            .menu-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        
+            .menu-item h3, .menu-item p {
+                font-size: 1em;
+            }
+        }     
